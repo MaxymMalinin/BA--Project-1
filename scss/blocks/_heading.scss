@@ -1,0 +1,16 @@
+.heading {
+  font-size: 1.25rem;
+  line-height: 1.4;
+
+  &__xxl {
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 1.0833;
+  }
+
+  &__xl {
+    font-size: 1.375rem;
+    line-height: 1.27272;
+    letter-spacing: 0.31em;
+  }
+}

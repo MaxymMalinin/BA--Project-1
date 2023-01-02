@@ -17,6 +17,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/.vscode\/settings.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/.vscode\/settings-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/css\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -230,114 +238,14 @@
       "oAP" : "\/images\/favicon\/site.webmanifest",
       "oF" : 0
     },
-    "\/images\/icons\/check-circle.svg" : {
+    "\/images\/icons\/sprite.svg" : {
       "ft" : 2097152,
       "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/check-circle.svg",
+      "oA" : 2,
+      "oAP" : "\/images\/icons\/sprite.svg",
       "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/chevron-down.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/chevron-down.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/facebook.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/facebook.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/linkedin.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/linkedin.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/pinterest.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/pinterest.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/quote-left.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/quote-left.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/search.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/search.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/thumbs-up.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/thumbs-up.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/twitter.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/twitter.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/icons\/youtube.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/icons\/youtube.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/images\/logo\/Bhromaon.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 0,
-      "oAP" : "\/images\/logo\/Bhromaon.svg",
-      "oF" : 0,
-      "opt" : 1,
-      "plM" : 52780316221407,
+      "opt" : 0,
+      "plM" : 53935662424063,
       "prP" : 0
     },
     "\/index.html" : {
@@ -379,7 +287,7 @@
       "oAP" : "\/scss\/css\/_blocks.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/blocks\/_header.scss" : {
@@ -394,7 +302,22 @@
       "oAP" : "\/scss\/css\/_header.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/scss\/blocks\/_heading.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/scss\/css\/_heading.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/general\/_font.scss" : {
@@ -409,7 +332,7 @@
       "oAP" : "\/scss\/css\/_font.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/general\/_general.scss" : {
@@ -424,7 +347,7 @@
       "oAP" : "\/scss\/css\/_general.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/general\/_normalize.scss" : {
@@ -439,7 +362,7 @@
       "oAP" : "\/scss\/css\/_normalize.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/general\/_reset.local.scss" : {
@@ -454,7 +377,7 @@
       "oAP" : "\/scss\/css\/_reset.local.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/style.scss" : {
@@ -469,7 +392,7 @@
       "oAP" : "\/css\/style.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/variables\/_color.scss" : {
@@ -484,7 +407,7 @@
       "oAP" : "\/scss\/css\/_color.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     },
     "\/scss\/variables\/_font.scss" : {
@@ -499,7 +422,7 @@
       "oAP" : "\/scss\/css\/_font.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 1,
+      "pg" : 0,
       "sct" : 0
     }
   },
@@ -1958,7 +1881,7 @@
       "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 3,
-      "purgeCSSStyle" : 1,
+      "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 1
@@ -1996,13 +1919,13 @@
       "sourceMapStyle" : 0
     },
     "languageDefaultsSVG" : {
-      "autoOutputAction" : 0,
+      "autoOutputAction" : 2,
       "autoOutputPathFilenamePattern" : "*.svg",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "pluginMask" : 52780316221407
+      "pluginMask" : 53935662424063
     },
     "languageDefaultsTS" : {
       "autoOutputAction" : 0,

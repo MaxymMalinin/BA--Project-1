@@ -1,0 +1,23 @@
+.header {
+  background: url('../images/backgrounds/header-mountain.png') center / cover
+    no-repeat;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.titles {
+  padding-top: 295px;
+
+  & * + * {
+    margin-top: 8px;
+  }
+}
+
+.search {
+  margin-top: 48px;
+  position: relative;
+
+  &_button {
+    position: absolute;
+  }
+}
