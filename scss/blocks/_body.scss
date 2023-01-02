@@ -1,0 +1,8 @@
+@use '../variables/font';
+@use '../variables/color';
+
+body {
+  font-family: font.$primary;
+  color: color.$white-default;
+  min-width: 320px;
+}

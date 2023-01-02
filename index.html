@@ -7,18 +7,18 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="./images/favicon/apple-touch-icon.png" />
+      href="./assets/images/favicon/apple-touch-icon.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon/favicon-32x32.png" />
+      href="./assets/images/favicon/favicon-32x32.png" />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="./images/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./images/favicon/site.webmanifest" />
+      href="./assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Travel With Us</title>
   </head>
@@ -31,14 +31,24 @@
       </div>
 
       <form class="search" name="search">
-        <input class="search_field" type="search" name="search_field" />
-        <button class="search_button">search</button>
+        <input
+          class="search_field"
+          type="search"
+          placeholder="Search Your Travel Destination"
+          name="search_field" />
+
+        <button class="button button__search">
+          <svg class="button_icon">
+            <use href="./assets/images/icons/sprite.svg#search"></use>
+          </svg>
+          <span class="button_text">search</span>
+        </button>
       </form>
 
-      <div>
-        <p>Scroll Down</p>
-        <svg style="fill: red">
-          <use href="./images/icons/sprite.svg#chevron-down"></use>
+      <div class="scroll-down">
+        <p class="scroll-down_text">Scroll Down</p>
+        <svg class="scroll-down_icon">
+          <use href="./assets/images/icons/sprite.svg#chevron-down"></use>
         </svg>
       </div>
     </header>

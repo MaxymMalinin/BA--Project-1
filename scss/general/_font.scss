@@ -1,1 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../assets/fonts/JosefinSans-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-weight: 100 700;
+}
+
+@font-face {
+  font-family: 'Aleo';
+  src: url('../../assets/fonts/Aleo-Regular.ttf');
+  font-weight: normal;
+}

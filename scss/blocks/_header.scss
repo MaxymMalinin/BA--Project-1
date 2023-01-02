@@ -1,23 +1,81 @@
+@use '../variables/color';
+@use '../mixins/breakpoint' as *;
+
 .header {
-  background: url('../images/backgrounds/header-mountain.png') center / cover
-    no-repeat;
-  padding: 0 10px;
+  background: url('../assets/images/backgrounds/header-mountain.png') center /
+    cover no-repeat;
+  padding: 18.4375rem 1.125rem 7.5rem 1.125rem;
   text-align: center;
 }
 
 .titles {
-  padding-top: 295px;
-
   & * + * {
-    margin-top: 8px;
+    margin-top: 0.5rem;
   }
 }
 
 .search {
-  margin-top: 48px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  font-size: 0.875rem;
+  max-width: 40.625rem;
+  width: 100%;
 
-  &_button {
-    position: absolute;
+  &_field {
+    width: 100%;
+    line-height: 1.4285;
+    letter-spacing: -0.05em;
+    height: 3.75rem;
+    padding: 1.25rem 0 1.25rem 1.25rem;
+    border: none;
+
+    &:placeholder-shown {
+      text-overflow: ellipsis;
+    }
+
+    @include for-phone-small {
+      letter-spacing: 0.05em;
+      padding-left: 2.25rem;
+    }
+
+    @include for-phone {
+      letter-spacing: 0.2em;
+    }
+  }
+}
+
+.scroll-down {
+  margin-top: 13.2875rem;
+
+  & * + * {
+    margin-top: 0.25rem;
+  }
+
+  &_text {
+    font-size: 0.875rem;
+    line-height: 1.428571;
+    letter-spacing: 0.2em;
+  }
+
+  &_icon {
+    fill: color.$white-default;
+    width: 0.875rem;
+    height: 1rem;
+    animation: move_down 2s ease-in-out infinite;
+  }
+}
+
+@keyframes move_down {
+  0% {
+    transform: translate(0, -0.625rem);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 1.875rem);
+    opacity: 0;
   }
 }

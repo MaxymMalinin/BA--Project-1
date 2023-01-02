@@ -1,10 +1,2 @@
 @use './general/general';
-@use './variables/font';
-@use './variables/color';
 @use './blocks/blocks';
-
-body {
-  font-family: font.$primary;
-  color: color.$white-default;
-  min-width: 320px;
-}
