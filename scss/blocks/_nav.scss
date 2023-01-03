@@ -22,14 +22,14 @@
     fill: color.$white-default;
     width: 2.5rem;
     height: 1.5rem;
-    right: 0;
+    right: 1.125rem;
   }
 
-  &_input {
-    &:checked {
-      outline: 2px solid red;
-    }
-  }
+  // &_input {
+  //   &:checked {
+  //     outline: 2px solid red;
+  //   }
+  // }
 
   &_icon {
     width: 100%;
@@ -117,14 +117,14 @@
   top: 17px;
 }
 
-/* Dropdown */
+/* nav_dropdown */
 
-.dropdown {
+.nav_dropdown {
   display: inline-block;
   position: relative;
 }
 
-.dd-button {
+.nav_container {
   display: inline-block;
   border: 1px solid gray;
   border-radius: 4px;
@@ -134,7 +134,7 @@
   white-space: nowrap;
 }
 
-.dd-button:after {
+.nav_container:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -147,15 +147,15 @@
   border-top: 5px solid black;
 }
 
-.dd-button:hover {
+.nav_container:hover {
   background-color: #eeeeee;
 }
 
-.dd-input {
+.nav_input {
   display: none;
 }
 
-.dd-menu {
+.nav_list {
   position: absolute;
   top: 100%;
   border: 1px solid #ccc;
@@ -167,31 +167,20 @@
   list-style-type: none;
 }
 
-.dd-input + .dd-menu {
+.nav_input + .nav_list {
   display: none;
 }
 
-.dd-input:checked + .dd-menu {
+.nav_input:checked + .nav_list {
   display: block;
 }
 
-.dd-menu li {
+.nav_list li {
   padding: 10px 20px;
   cursor: pointer;
   white-space: nowrap;
 }
 
-.dd-menu li:hover {
+.nav_list li:hover {
   background-color: #f6f6f6;
-}
-
-.dd-menu li a {
-  display: block;
-  margin: -10px -20px;
-  padding: 10px 20px;
-}
-
-.dd-menu li.divider {
-  padding: 0;
-  border-bottom: 1px solid #cccccc;
 }
