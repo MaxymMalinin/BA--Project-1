@@ -56,11 +56,15 @@
 
       <nav class="nav">
         <div class="center nav_content">
-          <svg class="logo">
-            <use href="./assets/images/icons/sprite.svg#logo"></use>
-          </svg>
+          <a href="./index.html" class="nav_content_link">
+            <svg class="logo">
+              <use href="./assets/images/icons/sprite.svg#logo"></use>
+            </svg>
+          </a>
 
           <label class="nav_dropdown">
+            <input type="checkbox" class="nav_input" />
+
             <div class="nav_container">
               <div class="nav_icon">
                 <span class="nav_icon_line"></span>
@@ -72,13 +76,19 @@
               </div>
             </div>
 
-            <input type="checkbox" class="nav_input" />
-
             <ul class="nav_list">
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
+              <li>
+                <a class="nav_list_link nav_list_link__first" href="#"
+                  >Who We Are</a
+                >
+              </li>
+              <li><a class="nav_list_link" href="#">What We Do</a></li>
+              <li><a class="nav_list_link" href="#">Travel With Us</a></li>
+              <li>
+                <a class="nav_list_link nav_list_link__last" href="#"
+                  >Contact Us</a
+                >
+              </li>
             </ul>
           </label>
         </div>
