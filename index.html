@@ -24,33 +24,82 @@
   </head>
 
   <body>
-    <header class="header">
-      <div class="titles">
-        <h1 class="heading heading__xxl">Bhromaon</h1>
-        <h3 class="heading heading__xl">Safe Travel Anywhere</h3>
-      </div>
+    <header>
+      <div class="header">
+        <div class="titles">
+          <h1 class="heading heading__xxl">Bhromaon</h1>
+          <h3 class="heading heading__xl">Safe Travel Anywhere</h3>
+        </div>
 
-      <form class="search" name="search">
-        <input
-          class="search_field"
-          type="search"
-          placeholder="Search Your Travel Destination"
-          name="search_field" />
+        <form class="search" name="search">
+          <input
+            class="search_field"
+            type="search"
+            placeholder="Search Your Travel Destination"
+            name="search_field" />
 
-        <button class="button button__search">
-          <svg class="button_icon">
-            <use href="./assets/images/icons/sprite.svg#search"></use>
+          <button class="button button__search">
+            <svg class="button_icon">
+              <use href="./assets/images/icons/sprite.svg#search"></use>
+            </svg>
+            <span class="button_text">search</span>
+          </button>
+        </form>
+
+        <div class="scroll-down">
+          <p class="scroll-down_text">Scroll Down</p>
+          <svg class="scroll-down_icon">
+            <use href="./assets/images/icons/sprite.svg#chevron-down"></use>
           </svg>
-          <span class="button_text">search</span>
-        </button>
-      </form>
-
-      <div class="scroll-down">
-        <p class="scroll-down_text">Scroll Down</p>
-        <svg class="scroll-down_icon">
-          <use href="./assets/images/icons/sprite.svg#chevron-down"></use>
-        </svg>
+        </div>
       </div>
+
+      <nav class="nav">
+        <div class="center">
+          <div class="nav_content">
+            <svg class="logo">
+              <use href="./assets/images/icons/sprite.svg#logo"></use>
+            </svg>
+
+            <label class="nav_dropdown">
+              <div class="nav_container">
+                <div class="nav_icon">
+                  <span class="nav_icon_line"></span>
+                  <span class="nav_icon_line"></span>
+                  <span class="nav_icon_line"></span>
+                  <span class="nav_icon_line"></span>
+                  <span class="nav_icon_line"></span>
+                  <span class="nav_icon_line"></span>
+                </div>
+              </div>
+
+              <input type="checkbox" class="nav_input" />
+            </label>
+          </div>
+        </div>
+      </nav>
     </header>
+
+    <main>
+      <section class="section-background">
+        <div class="center">
+          <div>
+            <img
+              src="./assets/images/content/house-near-water.png"
+              alt="A house near the water"
+              class="image" />
+            <img
+              src="./assets/images/content/mountain.png"
+              alt="Mountain"
+              class="image" />
+          </div>
+        </div>
+      </section>
+
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
   </body>
 </html>

@@ -14,6 +14,11 @@
     padding: 1rem 1.5rem;
     background-color: color.$accent;
     border: 0.25rem solid color.$white-default;
+
+    &:focus-visible {
+      outline: 2px dashed color.$focus;
+      outline-offset: -3.5px;
+    }
   }
 
   &_icon {

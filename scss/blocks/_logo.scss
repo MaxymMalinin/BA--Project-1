@@ -1,0 +1,7 @@
+@use '../variables/color';
+
+.logo {
+  fill: color.$white-default;
+  width: 10.5rem;
+  height: 1.25rem;
+}
