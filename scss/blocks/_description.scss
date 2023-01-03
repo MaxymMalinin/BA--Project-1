@@ -1,0 +1,23 @@
+.description {
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+
+  &_images {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &_content {
+    margin-top: 2.25rem;
+    text-align: center;
+  }
+
+  &_text {
+    margin-top: 1.25rem;
+  }
+
+  &_button {
+    margin-top: 1.5rem;
+  }
+}

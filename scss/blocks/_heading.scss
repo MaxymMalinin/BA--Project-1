@@ -1,3 +1,4 @@
+@use '../variables/font';
 @use '../mixins/breakpoint' as *;
 
 .heading {
@@ -5,9 +6,11 @@
   line-height: 1.4;
 
   &__xxl {
-    text-transform: uppercase;
+    font-weight: 700;
     font-size: 2.8rem;
     line-height: 1.0833;
+    letter-spacing: 0;
+    text-transform: uppercase;
 
     @include for-phone-small {
       font-size: 3rem;
@@ -15,8 +18,19 @@
   }
 
   &__xl {
+    font-family: font.$secondary;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1111;
+    letter-spacing: 0;
+    text-transform: capitalize;
+  }
+
+  &__l {
+    font-weight: 400;
     font-size: 1.375rem;
     line-height: 1.27272;
     letter-spacing: 0.31em;
+    text-transform: capitalize;
   }
 }

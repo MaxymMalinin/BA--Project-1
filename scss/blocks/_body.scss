@@ -4,5 +4,9 @@
 body {
   font-family: font.$primary;
   color: color.$white-default;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+
   min-width: 320px;
 }
