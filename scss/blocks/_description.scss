@@ -66,6 +66,16 @@
         margin-left: 6.875rem;
       }
     }
+
+    @include for-desktop-big {
+      &:nth-child(odd) {
+        margin-right: 4.625rem;
+      }
+
+      &:nth-child(even) {
+        margin-left: 4.625rem;
+      }
+    }
   }
 
   &_content {

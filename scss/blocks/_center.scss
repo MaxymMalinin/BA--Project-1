@@ -26,4 +26,8 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @include for-desktop-big {
+    max-width: 1320px;
+  }
 }
