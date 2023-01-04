@@ -9,6 +9,10 @@
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
   }
+
+  @include for-desktop-small {
+    padding-top: 13.75rem;
+  }
 }
 
 .card {
@@ -25,5 +29,13 @@
 
   &_button {
     margin-top: 1.75rem;
+  }
+
+  @include for-desktop-small {
+    max-width: 34.375rem;
+
+    &__alt {
+      margin-left: auto;
+    }
   }
 }

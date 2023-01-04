@@ -10,6 +10,11 @@
     padding-bottom: 7.5rem;
   }
 
+  @include for-desktop-small {
+    padding-top: 7.5rem;
+    padding-bottom: 11.25rem;
+  }
+
   & > * + * {
     margin-top: 1.875rem;
     display: flex;
@@ -17,6 +22,10 @@
 
     @include for-phone {
       margin-top: 3.75rem;
+    }
+
+    @include for-desktop-small {
+      flex-direction: row;
     }
   }
 
@@ -30,6 +39,13 @@
     height: auto;
     max-height: 21rem;
     object-fit: cover;
+
+    @include for-desktop-small {
+      width: 33%;
+      max-width: inherit;
+      height: inherit;
+      max-height: inherit;
+    }
   }
 
   &_container {

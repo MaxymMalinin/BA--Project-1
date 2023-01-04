@@ -17,6 +17,11 @@
       align-items: center;
     }
 
+    @include for-desktop-small {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     &_link {
       display: flex;
       align-items: center;
