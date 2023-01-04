@@ -1,4 +1,11 @@
+@use '../mixins/breakpoint' as *;
+
 .center {
-  padding-left: 0.625rem;
   padding-right: 0.625rem;
+  padding-left: 0.625rem;
+
+  @include for-phone {
+    padding-right: 1.125rem;
+    padding-left: 1.125rem;
+  }
 }

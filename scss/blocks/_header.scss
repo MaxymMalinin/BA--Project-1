@@ -10,6 +10,10 @@
   @include for-phone-small {
     padding: 7.5rem 0.625rem 5.125rem;
   }
+
+  @include for-phone {
+    padding: 18.4375rem 1.125rem 7.5rem;
+  }
 }
 
 .titles {
@@ -90,6 +94,10 @@
 
   @include for-phone-small {
     margin-top: 8.625rem;
+  }
+
+  @include for-phone-small {
+    margin-top: 13.25rem;
   }
 
   & * + * {
