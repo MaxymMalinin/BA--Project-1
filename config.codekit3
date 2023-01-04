@@ -311,7 +311,7 @@
       "oAP" : "\/scss\/css\/_blocks.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_body.scss" : {
@@ -326,7 +326,7 @@
       "oAP" : "\/scss\/css\/_body.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_button.scss" : {
@@ -341,7 +341,7 @@
       "oAP" : "\/scss\/css\/_button.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_card.scss" : {
@@ -356,7 +356,7 @@
       "oAP" : "\/scss\/css\/_card.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_center.scss" : {
@@ -371,7 +371,7 @@
       "oAP" : "\/scss\/css\/_center.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_description.scss" : {
@@ -386,7 +386,7 @@
       "oAP" : "\/scss\/css\/_description.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_feedback.scss" : {
@@ -401,7 +401,7 @@
       "oAP" : "\/scss\/css\/_feedback.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_footer.scss" : {
@@ -416,7 +416,7 @@
       "oAP" : "\/scss\/css\/_footer.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_header.scss" : {
@@ -431,7 +431,7 @@
       "oAP" : "\/scss\/css\/_header.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_heading.scss" : {
@@ -446,7 +446,7 @@
       "oAP" : "\/scss\/css\/_heading.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_logo.scss" : {
@@ -461,7 +461,7 @@
       "oAP" : "\/scss\/css\/_logo.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_nav.scss" : {
@@ -476,7 +476,7 @@
       "oAP" : "\/scss\/css\/_nav.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_section-background.scss" : {
@@ -491,7 +491,7 @@
       "oAP" : "\/scss\/css\/_section-background.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/blocks\/_steps.scss" : {
@@ -506,7 +506,7 @@
       "oAP" : "\/scss\/css\/_steps.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/general\/_font.scss" : {
@@ -521,7 +521,7 @@
       "oAP" : "\/scss\/css\/_font.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/general\/_general.scss" : {
@@ -536,7 +536,7 @@
       "oAP" : "\/scss\/css\/_general.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/general\/_normalize.scss" : {
@@ -551,7 +551,7 @@
       "oAP" : "\/scss\/css\/_normalize.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/general\/_reset.local.scss" : {
@@ -566,7 +566,7 @@
       "oAP" : "\/scss\/css\/_reset.local.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/mixins\/_breakpoint.scss" : {
@@ -581,7 +581,7 @@
       "oAP" : "\/scss\/css\/_breakpoint.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/style.scss" : {
@@ -596,7 +596,7 @@
       "oAP" : "\/css\/style.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/variables\/_color.scss" : {
@@ -611,7 +611,7 @@
       "oAP" : "\/scss\/css\/_color.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     },
     "\/scss\/variables\/_font.scss" : {
@@ -626,7 +626,7 @@
       "oAP" : "\/scss\/css\/_font.css",
       "oF" : 0,
       "oS" : 3,
-      "pg" : 0,
+      "pg" : 1,
       "sct" : 0
     }
   },
@@ -2085,7 +2085,7 @@
       "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 3,
-      "purgeCSSStyle" : 0,
+      "purgeCSSStyle" : 1,
       "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 1
