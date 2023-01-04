@@ -38,11 +38,11 @@
             placeholder="Search Your Travel Destination"
             name="search_field" />
 
-          <button class="button button__search">
-            <svg class="button_icon">
+          <button class="search_button">
+            <svg class="search_button_icon">
               <use href="./assets/images/icons/sprite.svg#search"></use>
             </svg>
-            <span class="button_text">search</span>
+            <span class="search_button_text">search</span>
           </button>
         </form>
 
@@ -56,11 +56,13 @@
 
       <nav class="nav">
         <div class="center nav_content">
-          <a href="./index.html" class="nav_content_link">
-            <svg class="logo">
-              <use href="./assets/images/icons/sprite.svg#logo"></use>
-            </svg>
-          </a>
+          <div>
+            <a href="./index.html" class="nav_content_link">
+              <svg class="logo">
+                <use href="./assets/images/icons/sprite.svg#logo"></use>
+              </svg>
+            </a>
+          </div>
 
           <label class="nav_dropdown">
             <input type="checkbox" class="nav_input" />
@@ -138,7 +140,9 @@
               </p>
             </div>
 
-            <button class="description_button button">Explore Places</button>
+            <button class="button description_button">
+              <span class="button_text">Explore Places</span>
+            </button>
           </div>
         </div>
       </section>
@@ -177,7 +181,9 @@
               account will give you a complete account of the system
             </p>
 
-            <button class="button card_button">book now</button>
+            <button class="button card_button">
+              <span class="button_text">book now</span>
+            </button>
           </div>
         </div>
       </section>
@@ -193,7 +199,9 @@
               account will give you a complete account of the system
             </p>
 
-            <button class="button card_button">book now</button>
+            <button class="button card_button">
+              <span class="button_text">book now</span>
+            </button>
           </div>
         </div>
       </section>
@@ -228,5 +236,59 @@
         </div>
       </section>
     </main>
+
+    <footer class="footer center">
+      <div>
+        <a class="footer_link" href="./index.html">
+          <svg class="logo logo__alt">
+            <use href="./assets/images/icons/sprite.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+
+      <p class="footer_text">Safe Travel Anywhere</p>
+
+      <ul class="footer_list">
+        <li>
+          <a class="footer_list_link" href="https://www.facebook.com">
+            <svg class="footer_image footer_image__facebook">
+              <use href="./assets/images/icons/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="footer_list_link" href="https://twitter.com">
+            <svg class="footer_image footer_image__twitter">
+              <use href="./assets/images/icons/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="footer_list_link" href="https://www.linkedin.com">
+            <svg class="footer_image footer_image__linkedin">
+              <use href="./assets/images/icons/sprite.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="footer_list_link" href="https://www.youtube.com">
+            <svg class="footer_image footer_image__youtube">
+              <use href="./assets/images/icons/sprite.svg#youtube"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a class="footer_list_link" href="https://www.pinterest.com">
+            <svg class="footer_image footer_image__pinterest">
+              <use href="./assets/images/icons/sprite.svg#pinterest"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
