@@ -1,4 +1,8 @@
 .section-background {
   background: url('../assets/images/backgrounds/city.png') center / cover
     no-repeat;
+
+  &__house {
+    background-image: url('../../assets/images/backgrounds/house-with-pool.png');
+  }
 }

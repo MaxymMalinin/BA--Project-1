@@ -336,6 +336,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/blocks\/_card.scss" : {
+      "aP" : 1,
+      "bl" : 0,
+      "co" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/scss\/css\/_card.css",
+      "oF" : 0,
+      "oS" : 3,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/blocks\/_center.scss" : {
       "aP" : 1,
       "bl" : 0,
