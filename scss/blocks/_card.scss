@@ -1,4 +1,19 @@
-.card {
+@use '../variables/color';
+
+.card-container {
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
+}
+
+.card {
+  padding: 1.375rem 1rem;
+  background-color: color.$card-bg;
+
+  & * + * {
+    margin-top: 1rem;
+  }
+
+  &_button {
+    margin-top: 1.75rem;
+  }
 }
