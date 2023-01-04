@@ -23,8 +23,8 @@
     border: 0.25rem solid color.$white-default;
 
     &:focus-visible {
-      outline: 2px dashed color.$focus;
-      outline-offset: -3.5px;
+      outline: 0.125rem dashed color.$focus;
+      outline-offset: -0.21875rem;
     }
   }
 

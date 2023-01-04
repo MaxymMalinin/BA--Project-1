@@ -1,0 +1,35 @@
+@use '../variables/color';
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.375rem;
+  padding-top: 2.375rem;
+  padding-bottom: 1.875rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & * + * {
+    margin-top: 1.25rem;
+    text-align: center;
+  }
+
+  &_icon {
+    width: 4rem;
+    height: 4rem;
+    fill: color.$accent;
+
+    &__check {
+      fill: color.$red;
+    }
+
+    &__thumbs {
+      fill: color.$blue;
+    }
+  }
+}

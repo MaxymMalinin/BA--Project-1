@@ -98,13 +98,13 @@
         }
 
         .nav_icon_line:nth-child(1) {
-          left: 5px;
-          top: 6px;
+          left: 0.3125rem;
+          top: 0.375rem;
         }
 
         .nav_icon_line:nth-child(2) {
-          left: calc(50% - 5px);
-          top: 6px;
+          left: calc(50% - 0.3125rem);
+          top: 0.375rem;
         }
 
         .nav_icon_line:nth-child(3) {
@@ -118,13 +118,13 @@
         }
 
         .nav_icon_line:nth-child(5) {
-          left: 5px;
-          top: 16px;
+          left: 0.3125rem;
+          top: 10.375rem;
         }
 
         .nav_icon_line:nth-child(6) {
-          left: calc(50% - 5px);
-          top: 16px;
+          left: calc(50% - 0.3125rem);
+          top: 10.375rem;
         }
       }
 
@@ -144,15 +144,15 @@
 
     &_link {
       display: block;
-      padding-top: 12px;
-      padding-bottom: 12px;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
 
       &__first {
-        padding-top: 32px;
+        padding-top: 2rem;
       }
 
       &__last {
-        padding-bottom: 32px;
+        padding-bottom: 2rem;
       }
     }
   }
