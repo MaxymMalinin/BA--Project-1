@@ -11,4 +11,8 @@ body {
   background-color: color.$grey-dark;
 
   min-width: 320px;
+
+  & a {
+    cursor: default;
+  }
 }

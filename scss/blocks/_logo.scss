@@ -4,8 +4,17 @@
   fill: color.$white-default;
   width: 10.5rem;
   height: 1.25rem;
+  cursor: pointer;
+
+  &:hover {
+    fill: color.$hover;
+  }
 
   &__alt {
     height: 1.75rem;
+
+    &:hover {
+      fill: color.$accent;
+    }
   }
 }

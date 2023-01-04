@@ -49,6 +49,7 @@
 
   &_image {
     fill: color.$white-default;
+    cursor: pointer;
 
     &:hover {
       fill: color.$accent;
